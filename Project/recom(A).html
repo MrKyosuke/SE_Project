@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="style(profile)/style_r.css">
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <div class="image-wrapper">
+                <img src="images(campus)/logo_binus.png" alt="Profile Picture">
+            </div>
+            <nav class="nav-buttons">
+                <button class="nav-button" onclick="redirectToHome()">Home</button>
+                <button class="nav-button" onclick="redirectToCampus()">Campus</button>
+                <button class="nav-button" onclick="redirectToVirtualView()">Virtual View</button>
+                <button class="nav-button" onclick="redirectToInformation()">Information</button>
+            </nav>
+            <button class="image-directory-button">
+                <img src="images(profile)/bimay_logo.jpg" alt="Binusmaya">
+            </button>
+        </div>
+    </header>
+    
+    <div class="showing-label">Recommendations from Anggrek Campus</div>
+
+    <div class="button-container">
+        <button class="anggrek-button" onclick="redirectToPageMixue()">
+            <img src="images(profile)/mixue.jpeg" alt="Button 1">
+            <span>Mixue</span>
+        </button>
+        <button class="syahdan-button" onclick="redirectToPageSyahdan()">
+            <img src="images(profile)/lawson.png" alt="Button 2">
+            <span>Lawson</span>
+        </button>
+        <button class="kijang-button" onclick="redirectToPageKijang()">
+            <img src="images(profile)/family.jpg" alt="Button 3">
+            <span>Family Mart</span>
+        </button>
+    </div>
+    
+    <script src="scripts/recomm(A).js"></script>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+/*Untuk main body dan background */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5AAAA;
+  }
+  
+  /*Untuk Box Title */
+
+  header {
+    background-color: #FF3C3C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  /*Untuk Logo Binus */
+  
+  .image-wrapper {
+    margin-right: 20px;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 0;
+  }
+  
+  .image-wrapper img {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+  }
+  /*Untuk Logo Profile */
+
+  img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /*Untuk Logo Bimay */
+
+  .image-directory-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+  
+  .image-directory-button img {
+    margin-right: 30px;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  /*Untuk Box Information */
+
+  .info-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+  }
+  
+  .info-box h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .info-box p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+
+  h1 {
+    margin: 0;
+    color: rgb(180, 180, 204);
+  }
+  
+  /*Untuk Box Profile */
+
+  main {
+    margin: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 15cm;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /*Untuk Button Home, Campus, dll */
+
+  .nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .nav-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-button:hover {
+    background-color: #e8101b;
+    color: white;
+  }
+
+  /*Untuk Copyright, dll */
+
+  .bottom-box {
+    background-color: hsl(29, 88%, 54%);
+    padding: 20px;
+    position: fixed; /* Change to fixed */
+    top: 220px; /* Adjust the top position */
+    right: 150px; /* Adjust the right position */
+    display: flex;
+    height: 407px;
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .left-part h2 {
+    position: top;
+    height: 40px;
+    width: 30px;
+    color: #333;
+  }
+  
+  .bottom-box img {
+    width: 600px; /* Set width to 100% to fill the container */
+    height: 290px; /* Allow height to adjust based on width */
+    margin-top: 20px;
+    margin-bottom: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 0;
+  }
+  
+  
+  

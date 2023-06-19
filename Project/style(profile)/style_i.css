@@ -1,0 +1,166 @@
+/*Untuk main body dan background */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FF3C3C;
+  }
+
+  
+  /*Untuk Box Title */
+
+  header {
+    background-color: #E5AAAA;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  /*Untuk Logo Binus */
+  
+  .image-wrapper {
+    margin-right: 20px;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /*Untuk Logo Profile */
+
+  img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /*Untuk Logo Bimay */
+
+  .image-directory-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+  
+  .image-directory-button img {
+    margin-right: 30px;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    margin: 0;
+    color: yellow;
+  }
+  
+  /*Untuk Box Profile */
+
+  main {
+    margin: 40px;
+    background-color: #E5AAAA;
+    top: 40px;
+    border-radius: 5px;
+    padding: 50px;
+    width: 30cm;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /*Untuk Button Home, Campus, dll */
+
+  .nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .nav-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-button:hover {
+    background-color: #FF3C3C;
+    color: white;
+  }
+
+  .campus-img{
+    margin-right: 20px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .campus-img img {
+    width: 300%;
+    height: 200%;
+    object-fit: cover;
+  }
+
+  .box {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+
+  /* Untuk Logo Binus */
+.image-wrapper {
+  margin-right: 20px;
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.image-wrapper img {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+  
+  
+  
+  
