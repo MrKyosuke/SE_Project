@@ -1,5 +1,5 @@
 # SE_Project
-Hello, welcome to my side project of mine where i try to show the virtual view from some of my campuse in Jakarta, where it can show multiple places near the campus or even inside the campus.
+Hello, welcome to my side project of mine where i try to show the virtual view from some of my campus in Jakarta, where it can show multiple places near the campus or even inside the campus.
 So far it has only the function of showing the location of the campus and the stores around 2 km around the campus, but i wanted to make more funtions to it than just these.
 
 The main purpose of this project was to show the virtual view of each facility inside the campus and show the direction of the designated class, so it would be easier for the students to access the facilities they wanted to visit or classrooms they wanted to attend.
